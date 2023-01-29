@@ -7,7 +7,7 @@ from qiskit.tools.monitor import job_monitor
 from generators import NormalDistribution,UniformDistribution,LogNormalDistribution,PorterThomasDistribution,DeepThermalRandom
 import covalent as ct
 
-DISTRIBUTION_TYPES = ['normal', 'uniform', 'lognormal', 'porterthomas']
+DISTRIBUTION_TYPES = ['normal', 'uniform', 'lognormal', 'porterthomas', 'deepthermo']
 
 @ct.electron
 def get_random_seed(distribution_type, backend, ibm_sim_local, SHOTS, NUM_QUBITS):
